@@ -1,8 +1,9 @@
 import React from "react";
 import team1 from "../../assets/team1.jpg"
-import team2 from "../../assets/team2.jpg"
+import team2 from "../../assets/team2.png"
 import team3 from "../../assets/team3.jpg"
 import team4 from "../../assets/team4.jpg"
+import team5 from "../../assets/team5.png"
 
 const MyTeam = () => {
     return (
@@ -112,7 +113,7 @@ const MyTeam = () => {
                         <div className="w-64 h-64 overflow-hidden rounded-full shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
                             <img
                                 className="w-64 h-64 object-cover"
-                                src={team2}
+                                src={team5}
                                 alt="Client 5"
                             />
                         </div>
